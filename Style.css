@@ -1,0 +1,67 @@
+﻿body {
+    margin: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #555555;
+}
+
+    ul.topnav li {
+        float: left;
+    }
+
+        ul.topnav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+            ul.topnav li a:hover:not(.active) {
+                background-color: #111;
+            }
+
+            ul.topnav li a.active {
+                background-color: black;
+            }
+
+        ul.topnav li.right {
+            float: right;
+        }
+h1.Intro{
+    font: 32px;
+    color: red;
+}
+h1.Week1Dev{
+    font:48px;
+    color: rgb(165, 89, 42);
+}
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
+h2{
+    color:cyan;
+}
+h3{
+    font-weight: bold;
+    color:pink;
+}
+li.pointers{
+    color: purple;
+}
+img.catto{
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+}

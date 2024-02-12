@@ -1,0 +1,19 @@
+h1{
+    color: orange;
+    font-size: 32px;
+    font: Impact;
+    font-weight: 750;
+}
+.shadow{
+    text-shadow: -1px 2px 0px #a7a7a7;
+}
+.coloring{
+    color: brown;
+}
+section{
+    font-size: 24px;
+    font: Arial;
+}
+body{
+    background-color: #a7a7a7;
+}

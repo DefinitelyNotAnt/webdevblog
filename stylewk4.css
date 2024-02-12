@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a7a7a7;
+}
+.container{
+    display: flex;
+    justify-content: row;
+    align-content: flex-start;
+    flex: wrap;
+}
+@media only screen and (max-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.button{
+    width: 95%;
+    padding: 12px;
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+.split{
+    padding: 12px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
